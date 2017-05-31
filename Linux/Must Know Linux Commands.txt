@@ -1,0 +1,86 @@
+Commands:
+
+1.cd (Change Directory) ex:$cd path/to/directory
+
+2.wget (Downloader) ex:$wget *******************url******************** (Direct Link)
+
+3.mkdir & rmdir (Make Dir & Remove Dir ) ex1:$mkdir *dirname*
+                                         ex2:$rmdir *dirname*
+
+4.rm (Remove File) ex:$rm *filename*
+
+5.nano (GNU Nano *Command Line Notepad* ) ex1:nano path/to/file
+                                    ex2:nano *filename*
+commands:-
+1.Crtl + X (Exit)
+
+2.Alt + 6 (Copy Line)
+
+3.Crtl + U (Paste)
+
+*******************************end*****************
+Default Packages (Most Distros)
+
+1.sudo (Super User* Do (Super User Privalages))
+
+ex1:sudo *command*
+
+*root
+
+2.Package Manager
+
+1. (.deb)
+
+2. (.rpm)
+
+1.DEB
+Deb Packages Are Mostly (Always) Used In Debian Distros
+
+ex:Debian , Ubuntu , Linux Mint etc
+
+To Install A Downloaded .DEB File
+
+cd To The Directory And Type:-
+
+$sudo dpkg -i *packagename*.deb
+
+To Install Package From The WWW Type:-
+
+$sudo apt-get install *packagename*
+
+or
+
+$sudo apt install *packagename*
+
+2.RPM
+RPM Packages Are Used Mostly In RPM Distros (Enterprise or Diratives)
+ex:Fedora , RHEL , Centos etc
+
+To Install Downloaded .RPM File 
+
+cd To Directory And Type:
+
+$sudo rpm -ivh *packagename*
+
+To Install Package From WWW Type:
+
+$sudo yum install *packagename*
+
+***Arch Linux***
+
+To Install Downloaded .PKG.TAR.XZ File 
+
+$cd To Directory And Type:
+
+$pacman -U *filename*.pkg.tar.xz
+
+To Install Package From WWW Type:
+
+$pacman -S *packagename*
+
+***************************************
+Archive
+
+1.unzip (Extract .ZIP File in Currernt Directory) ex:$unzip *filename*.zip
+
+2.tar -xvzf (Extract .TAR.GZ File in Current Directory) ex$tar -xvzf *filename*.tar.gz
